@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-size: 1rem;
+    color: #111111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 80px;
+}
+header{
+    width: 100%;
+}
+
+header .menu{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.menu h1{
+    font-size: 1rem;
+}
+
+.main-container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.product-item{
+    padding: 15px;
+    background-color: #eeeeee;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 6px;
+}
+
+.disabled-product{
+    background-color: rgb(255, 208, 208);
+}
