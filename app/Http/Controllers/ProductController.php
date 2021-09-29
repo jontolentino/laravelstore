@@ -59,4 +59,12 @@ class ProductController extends Controller
         // Session::flash('message', 'Product was edited!'); 
         return redirect('/product');
     }
+
+    public function show_orders(){
+
+        $orders = DB::table('orders')->get();
+        $orders = $orders->reverse();
+        
+        return view('orders', ['orders'=> $orders]);
+    }
 }

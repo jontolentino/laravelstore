@@ -19,5 +19,7 @@ Route::get('/product/create', [ProductController::class, 'create']);
 Route::post('/product/save', [ProductController::class, 'save']);
 Route::get('/product/{id}/show_edit', [ProductController::class, 'show_edit']);
 Route::put('/product/{id}/save_edit', [ProductController::class, 'save_edit']);
+Route::get('/order', [ProductController::class, 'show_orders']);
+
 
 

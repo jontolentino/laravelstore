@@ -54,3 +54,9 @@ button{
 .disabled-product{
     background-color: rgb(255, 208, 208);
 }
+
+.order-item{
+    padding: 15px;
+    background-color: #eeeeee;
+    margin-bottom: 5px;
+}
